@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="public/js/form.js"></script>
+    <link rel="stylesheet" href="public/css/index.css">
+    <title>Meu Primeiro Formulário em PHP</title>
+</head>
+<body>
+
+    <div class="form">
+        <form action="app/Controllers/form.php"  method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name"> <br>
+        
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" id="telefone"><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email"><br>
+            <button type='submit' onclick="validarForm()"></button>
+        </form>
+    </div>
+</body>
+</html>
