@@ -1,10 +1,10 @@
 <?php 
 
 
-namespace Core;
+namespace core;
 
-use App\Classes\Uri;
-use App\exceptions\ControllerNotExistsException;
+use app\Classes\Uri;
+use app\exceptions\ControllerNotExistsException;
 
 class controller {
     private $uri;
